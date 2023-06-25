@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+* Em HTML é id e em CSS é # (cerquilha).
+* Em HTML é class e em CSS é . (Ponto).
+
+* Devemos usar a regra do WC3 que orienta
+a termos apenas um id por documento e se 
+necessário usarmos várias classe para 
+configurações personalisadas.
+
+* Podemos ter uma classe composta e um 
+id e uma classe juntos porém o id se 
+sobrepoem a classe.
+*/
+body {
+    background-color: #CEF2AA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #8E7111;
+}
+#principal {
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgba(0, 128, 64, 0.575);
+    color: white;
+}
+h2 {
+    color: #0c664b;
+}
+.basico {
+    color: #1bdba2a8;
+    font-weight: bolder;
+}
+.intermediario {
+    color: #60660c;
+}
+.avançado {
+    color: #660c41;
+}
+.destaque {
+    background-color: rgba(151, 151, 52, 0.705);
+}

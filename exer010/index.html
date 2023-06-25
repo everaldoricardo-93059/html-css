@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+    <style>
+        body{
+            background-color: rgb(93, 93, 201);
+        }
+        h1{
+            text-align: center;
+        }
+        a{
+            color: black;
+            background-color: aqua;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p><!--Use os parâmetros target e rel para abrir outras páginas-->
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube</a></p>
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do meu site. Se você quiser acessar a minha <a href="pag002.html" rel="next" target="_self">segunda página.</a><!--O uso dos parâmetros next e prev orienta o mecanismo do Google-->
+    </p><!--Links internos não precisam da url-->
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html">página de notícias</a> </p>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livros/TRABALHO UNINTER - .pdf" download="TRABALHO UNINTER - .pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <br>
+        <li><a href="livros/TRABALHO UNINTER - -compactado.pdf" download="TRABALHO UNINTER - -compactado.pdf" type="application/pdf">Livro compactado em ZIP</a></li>
+    </ul>
+
+
+</body>
+</html> 
