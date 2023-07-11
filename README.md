@@ -5,6 +5,6 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.
 <br>
 É preciso muita paciência.
 
-<a href="https://everaldoricardo-93059-github.io/Estudos-html/exer001/index.html">Executar o exercício 001<a>
+<a href="https://everaldoricardo-93059.github.io/Estudos-html/exer001/index.html">Executar o exercício 001<a>
 
 
