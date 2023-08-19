@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Exercicio de Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(0, 255, 255, 0.39);
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+
+        td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+        col.nome {
+            background-color: green;
+        }
+
+        col.prof {
+            background-color: green;
+        }
+
+        col.sexo, col.idade {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exercicio de Tabelas</h1>
+
+    <table>
+
+        <colgroup>
+
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="prof">
+
+        </colgroup>
+
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Otavio</td>
+            <td>M</td>
+            <td>39</td>
+            <td>Motorista</td>
+        </tr>
+
+        <tr>
+            <td>Luana</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Bancária</td>
+        </tr>
+
+        <tr>
+            <td>Mauro</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Fotógrafo</td>
+        </tr>
+
+        <tr>
+            <td>Paula</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Cozinheira</td>
+        </tr>
+
+        <tr>
+            <td>Everaldo</td>
+            <td>M</td>
+            <td>51</td>
+            <td>Desenvolvedor</td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>
