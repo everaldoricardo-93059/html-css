@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+
+        ul {
+            background-color: black;
+            color:white;
+            list-style: inside;
+            padding: 10px;
+            width: 500px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li > a:hover {
+            background-color: rgba(0, 255, 255, 0.459);
+            padding: 2px;
+        }
+        
+        li {
+            list-style-type: square;
+            line-height: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam et iusto vel nobis dicta doloribus necessitatibus voluptate quidem suscipit dolores. Dicta iste temporibus sit consequuntur consectetur aut qui, alias ea.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas temporibus dolore veniam nam minus quasi accusantium cum voluptate, voluptatum fugit aperiam laudantium velit porro, incidunt odio quae ratione magnam possimus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo nihil deleniti aliquam ipsum ut nobis in soluta rem doloremque debitis accusantium nam, culpa corrupti aliquid est expedita accusamus, reprehenderit laboriosam!</p>
+
+    <iframe id="tela" name="frame"  srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas temporibus dolore veniam nam minus quasi accusantium cum voluptate, voluptatum fugit aperiam laudantium velit porro, incidunt odio quae ratione magnam possimus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo nihil deleniti aliquam ipsum ut nobis in soluta rem doloremque debitis accusantium nam, culpa corrupti aliquid est expedita accusamus, reprehenderit laboriosam!</p><img src='imagens/html 5 logo teste.png'>">
+        <p>Infelizmente o seu navegador não é compatíve com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non recusandae sit quo temporibus ut commodi omnis magni architecto, asperiores similique mollitia! Sit cum sunt saepe blanditiis incidunt adipisci fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat libero, ipsa inventore eos et ullam deserunt in corporis pariatur, eligendi officia praesentium quasi nulla vero! Voluptatibus voluptatum repudiandae necessitatibus distinctio.</p>
+    
+</body>
+</html>
