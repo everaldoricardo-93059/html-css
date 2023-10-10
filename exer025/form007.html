@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+    
+
+        label#est {
+            margin-left: 15px;
+        }
+
+        select#sudeste {
+            margin-bottom: 40px;
+            margin-left: 5px;
+        } 
+
+        body {
+            background-color: rgba(0, 255, 255, 0.397);
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            text-align: center;
+            text-decoration: underline;
+            margin-bottom: 30px;
+        }
+        p#sub {
+            display: inline;
+            margin-top: 50px;
+            margin-left: 15px;
+        }     
+        label#msg {
+            margin-left: 10px;
+            padding: 20px;
+        }
+        textarea {
+            margin-left: 85px;
+        }
+
+        p#prof {
+            margin-bottom: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+  <h1>Exemplo de Formulário</h1>  
+    <main>
+        <form action="cadastro.php" method="post">
+            <label  id="est" for="iest">Estado</label>
+            <select id="sudeste"  name="est" id="iest">
+                <optgroup label="Região Sudeste">
+                    <option value="" selected>--- Escolha ---</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espírito Santo</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="PB">Paraíba</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="CE">Ceará</option>
+                </optgroup>
+            </select>
+            <p id="prof">
+                <label id="est" for="iprof">Profissões</label>
+                <input type="text" name="prof" id="iprof" autocomplete="off" list="lisprof">
+                <datalist id="lisprof">
+                    <option>Administrador</option>
+                    <option>Contador</option>
+                    <option>desenvolvedor</option>
+                    <option>Professor</option>
+                </datalist>
+        
+            </p>
+            <p>
+                <label id="msg" for="imsg">Mensagem</label><br>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+            
+            <p id="sub">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+            
+        </form>
+    </main>
+</body>
+</html>
